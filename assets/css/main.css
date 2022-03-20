@@ -1,0 +1,265 @@
+/* Vision */
+  .item_subheading {
+    position: relative;
+    top: 13rem;
+  }
+
+  .main__introduce {
+    background: linear-gradient(180deg, #EFF9ED 0%, rgba(239, 249, 237, 0) 100%);
+    padding-bottom: 110px;
+  }
+  
+  .vision {
+    margin-top: 50px;
+  }
+
+  .vision--title{
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: var(--green);
+    text-align: center;
+  }
+
+  .vision--text {
+    font-size: 1.8rem;
+    color: var(--black);
+    font-family: 'SF UI Display', sans-serif;
+  }
+
+  .vision__right {
+    align-items: center;
+  }
+
+  .vision__right--sub {
+    font-family: 'SF UI Display', sans-serif;
+    font-size: 2rem;
+    color: var(--green);
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .vision__right--text {
+    font-family: 'SF UI Display', sans-serif;
+    font-size: 1.8rem;
+    color: var(--black);
+  }
+
+  .vision__right--number{
+    font-family: 'SF UI Display', sans-serif;
+    color: var(--green);
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 166.69%;
+  }
+  
+  .main__value {
+    padding-bottom: 110px;
+  }
+
+  .main__value-bg {
+    position: relative;
+    height: 1062.52px;
+    z-index: 1;
+  }
+
+  .main__value-box {
+   align-items: center;
+
+  }
+
+  .main__value-grid {
+    position: relative;
+    bottom:8em;
+  }
+
+  .main__value-sub {
+    font-family: 'SF UI Display', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 4.5rem;
+    color: var(--white);
+  }
+
+  .main__value-text {
+    color: var(--white);
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+
+  .core__value-listitem {
+    font-weight: 600;
+    font-family: 'SF UI Display', sans-serif;
+    font-size: 2rem;
+    color: var(--green-text);
+    padding: 5px 10px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 183.66%);
+    margin-bottom: 16px;
+    border-radius: 10px;
+  }
+
+  .main__trade-bg {
+    position: relative;
+    height: 598.29px;
+    z-index: 1;
+    flex-direction: row;
+    align-items: end;
+    display: flex;
+  }
+
+  .main__trade-content {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+.main__trade-sub {
+  font-family: 'SF UI Display', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: var(--white);
+}
+
+.main__trade-text {
+  font-family: 'SF UI Display', sans-serif;
+  text-transform: uppercase;
+  color: var(--white);
+  font-size:1.6rem;
+  letter-spacing: 0.16rem;
+}
+
+.main_trad-padding {
+  padding-left: 25px;
+}
+
+.main__about-wrapper {
+  z-index: 1;
+  position: relative;
+  height: 541px;
+}
+
+.main__value--background {
+  height: 482.66px;
+  position: relative;
+}
+
+
+.main__blog {
+  padding: 110px 0;
+}
+
+.main__head {
+  color: var(--green);
+  font-size: 4rem;
+  font-weight: 600;
+  font-family: 'SF UI Display', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 36px;
+}
+
+.bg-violet {
+  background-color: #F0E3FC;
+}
+
+.bg-green {
+  background-color: #E2FCF7;
+}
+
+.bg-orange {
+  background-color: #FFF0E7;
+}
+
+
+.main__blog-item {
+ 
+  min-height: 272px;
+  border-radius: 8px;
+}
+
+
+a.main__blog-link.main__link {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 118px;
+  max-width: 118px;
+}
+
+
+.main__info {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0 22px 0;
+}
+
+.main__blog-label-time {
+  font-family: 'SF UI Display', sans-serif;
+  font-size: 2.5rem;
+  color: var(--black);
+  font-weight: 600;
+  text-align: center;
+  /* padding: 0 70px; */
+}
+
+.contact__us {
+  padding-bottom: 110px;
+}
+
+.main__contact-item-wrapper {
+  background-color: var(--green);
+  max-height: 434px;
+}
+
+iframe.contact-map {
+  width: 100%;
+  height: auto;
+  min-height: 434px;
+}
+
+.padding-contact{
+  padding-left: 35px;
+}
+
+.contact__qa  {
+  position: relative;
+  height: 827px;
+}
+
+.main__qa-item-wrapper {
+  padding: 14em 0;
+}
+.contact__card--infor:last-child {
+  margin-left: 10em;
+}
+
+.card_name {
+  font-size: 2rem;
+  color: var(--white);
+  font-family: 'SF UI Display', sans-serif;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.card_position {
+  font-size: 1.3rem;
+}
+
+.card_contact {
+  padding-top: 12px;
+  background: linear-gradient(86.37deg, #009247 0.56%, #8CC63F 114.3%);
+  color: var(--white);
+  text-align: center;
+  font-size: 1.5rem;
+  border-radius: 9px;
+  padding: 5px 20px;
+}
+
+.dowload_now-text {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: var(--white);
+}

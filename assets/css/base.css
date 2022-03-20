@@ -1,0 +1,94 @@
+:root {
+    --pd: 15px;
+    --ticket-ml: 20px;
+    --green: #009247;
+    --green-text: #006732;
+    --white: #fff;
+    --black: #000;
+    --black-light: rgba(0, 0, 0, 0.1);
+    --gray: rgba(0, 0, 0, 0.05);
+    --text-clr: #999999;
+}
+
+@import url('http://fonts.cdnfonts.com/css/sf-ui-display');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+textarea,
+input[type="text"] {
+    font-family: 'SF UI Display';
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-flex.justify--space-between {
+    justify-content: space-between;
+}
+
+.pt-48 {
+    padding-top: 48px;
+}
+
+.pt-b-8 {
+    margin-left: 12px;
+}
+
+.mb-12 {
+    margin-left: 12px;
+}
+
+.mb-30 {
+    margin-bottom: 30;
+}
+
+.sub-heading {
+    font-size: 4.5rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.heading--white {
+    color: var(--white);
+}
+
+.heading--grean {
+    color: var(--green);
+}
+
+.btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn--active {
+    background: linear-gradient(268.5deg, rgba(111, 187, 64, 0.25) 0.82%, rgba(0, 146, 69, 0.25) 99.09%);
+    color: var(--green)
+}
+
