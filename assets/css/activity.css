@@ -1,0 +1,96 @@
+#margin_main{
+    margin-top: 60px;
+}
+.img_right{
+    min-width: 344px;
+    min-height: 450px;
+    max-width: 344px;
+    max-height: 450px;
+}
+.text_new{
+    font-family: 'SF UI Display';
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 35.15px;
+    border-bottom: 3px solid #43CD60;
+    min-height: 55px;
+    min-width: 264px;
+}
+.text_new:hover{
+    text-decoration: underline;
+}
+.content{
+    min-width: 315px;
+    min-height: 97px;
+    max-width: 315px;
+    display: flex;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.text_content{
+    font-family: 'SF UI Display';
+    line-height: 27.31px;
+    font-size: 16px;
+    margin-left: 5px;
+    border-bottom: 1px dashed #B8B8B8;
+}
+.smack_head{
+    width: 5px;
+    height: 5px;
+    background: #43CD60;
+    border-radius: 1px;
+}
+.text_content:hover{
+    text-decoration: underline;
+}
+.img_leftoflefft{
+    display: flex;
+    justify-content: center;
+    
+}
+.header_left{
+    display: flex;
+    justify-content: center;
+}
+.main_leftoflefft{
+    min-height: 430px;
+    max-height: 430px;
+    background: white;
+}
+.title_content_main_left{
+    font-family: 'SF UI Display';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28.17px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.content_main_left{
+    font-family: 'SF UI Display';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.53px;
+    display: flex;
+    justify-content: center;
+    min-width: 430px;
+    padding: 20px 65px 30px 65px;
+}
+#margin_img{
+    margin-top: 20px;
+}
+.pagination a {
+    color: black;
+    
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+  .pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
