@@ -136,6 +136,10 @@
     justify-content: center;
     align-items: center;
     color: #fff;
+    font-family: 'SF UI Display';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25.35px;
 }
 #headerlefft3{
     background: #43CD60;
@@ -145,4 +149,8 @@
     align-items: center;
     border-radius: 36px;
     color: #fff;
+    font-family: 'SF UI Display';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25.35px;
 }
