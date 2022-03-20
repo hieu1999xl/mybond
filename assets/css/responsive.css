@@ -168,12 +168,12 @@
     }
   
     .header__nav {
-        background-color: unset;
+      background-color: unset !important;
       padding: 12px 0;
     }
   
     .header__label-btn {
-      display: flex;
+      display: flex !important;
       align-items: center;
     }
   
@@ -204,6 +204,33 @@
   .vision__right--text {
     font-size: 1.6rem;
   }
+
+  .dowload_now-img.d-flex {
+    display: contents;
+    margin: 0 auto;
+  }
+
+  .contact__card.d-flex {
+    display: block;
+  }
+
+  .contact__card--infor {
+    padding-bottom: 3rem;
+  }
+
+  .contact__qa {
+    position: relative;
+    height: 100%;
+}
+
+.dowload_now {
+  padding-top: 5em;
+}
+
+.main__qa-box-item-wrapper {
+  margin-bottom: 3em;
+}
+
 
   .main__value-text {
     font-size: 1.6rem;
