@@ -246,8 +246,8 @@
   }
 
   .main__trade-content {
-    background-color: var(--green);
-  }
+    background-color: #00BB5B;
+}
 
   .main__trade-sub  {
     font-size: 3rem;

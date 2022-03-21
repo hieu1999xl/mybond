@@ -5,3 +5,6 @@ $('body').append(log);
     var me = $(this);
     log.html(me.attr('value'));
   });
+
+
+  
